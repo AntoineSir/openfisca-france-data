@@ -190,7 +190,7 @@ class openfisca_france_data(reforms.Reform):
             'aah_base_ressources',
             'agirc_gmp_salarie',
             'supp_familial_traitement',  # Problème de l'autonomie financière
-            'traitement_indiciaire_brut',
+            # 'traitement_indiciaire_brut', # Intégré pour avoir les bons
             'primes_fonction_publique',
             'remuneration_principale',
             'assiette_cotisations_sociales_public',
