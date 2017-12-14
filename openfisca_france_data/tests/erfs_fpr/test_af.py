@@ -21,8 +21,8 @@ def get_survey_scenario(year = 2012, rebuild_input_data = False):
         tax_benefit_system = tax_benefit_system,
         baseline_tax_benefit_system = tax_benefit_system,
         year = year,
-        rebuild_input_data = rebuild_input_data,
         )
+    survey_scenario.init_from_survey_tables(rebuild_input_data = rebuild_input_data)
     return survey_scenario
 
 
